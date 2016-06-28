@@ -1,4 +1,15 @@
 
 baseurl = "mpatraw.github.io"
+languageCode = "en"
 title = "Michael Patraw"
+author = "mpatraw"
+copyright = "Michael Patraw all rights reserved."
 
+[params]
+  logo      = "/images/logo.jpg"
+#  twitter   = "https://twitter.com/mpatraw"
+  facebook  = "https://www.facebook.com/xurgrue"
+  github    = "https://github.com/mpatraw/"
+  email     = "michaelpatraw@gmail.com"
+  analytics = "UA-79729137-1"
+  permanent = ["resume", "projects", "contact"]
