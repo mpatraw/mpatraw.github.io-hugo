@@ -2,7 +2,7 @@
 
 echo -e "\033[0;32mdeploying updates to github...\033[0m"
 
-hugo
+hugo --buildDrafts
 
 cd public
 git add -A
