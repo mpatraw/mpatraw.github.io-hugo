@@ -3,7 +3,7 @@
 	<main role="main">
 		<div class="top-bar">
 {{ range .Site.Params.permanent }}
-			|<a href="{{ $.Site.BaseURL }}{{ . }}">{{ . }}</a>|
+			|<a href="{{ . }}">{{ . }}</a>|
 {{ end }}
 		</div>
 		<hr />
